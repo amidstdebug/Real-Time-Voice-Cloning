@@ -146,7 +146,6 @@ if __name__ == '__main__':
 
             ## Generating the spectrogram
             text = input("Write a sentence (+-20 words) to be synthesized:\n")
-
             # If seed is specified, reset torch seed and force synthesizer reload
             if args.seed is not None:
                 torch.manual_seed(args.seed)
